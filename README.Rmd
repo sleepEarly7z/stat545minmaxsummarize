@@ -25,7 +25,7 @@ The goal of minmaxsummarize is to provide a function `shrink_and_summarize` that
 You can install the development version of minmaxsummarize like so:
 
 ``` r
-devtools::install_github(minmaxsummarize)
+devtools::install_github("sleepEarly7z/minmaxsummarize")
 ```
 
 ## Example
@@ -35,5 +35,5 @@ This is a basic example:
 ```{r example}
 library(minmaxsummarize)
 x <- c(1, 2, 5, 50, 100, NA)
-shrink_and_summarize(x, range_limits = c(0, 10))
+shrink_and_summarize(x, 0, 10)
 ```
