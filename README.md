@@ -1,0 +1,2 @@
+# minmaxsummarize
+ A R package
